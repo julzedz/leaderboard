@@ -3,5 +3,33 @@
 }
 
 body {
-    background-color: #d3cbc1;
+  background-color: #d3cbc1;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.score-section{
+  width: 40%;
+}
+
+.score-section header {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 1em;
+}
+
+.btn{
+  width: fit-content;
 }
