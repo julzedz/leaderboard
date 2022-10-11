@@ -1,2 +1,2 @@
-# webpack-boilerplate
-A simple yet powerful web-pack boilerplate, which I can later use as a starting point in my projects.
+# leaderboard
+The leaderboard app displays scores submitted by different players. It also allows you to submit your score. All data is preserved with the external Leaderboard API service.
