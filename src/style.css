@@ -3,7 +3,7 @@ main {
   justify-content: space-evenly;
 }
 
-.score-section{
+.score-section {
   width: 40%;
 }
 
@@ -20,6 +20,6 @@ main {
   gap: 1em;
 }
 
-.btn{
+.btn {
   width: fit-content;
 }
