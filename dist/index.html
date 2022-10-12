@@ -1,1 +1,27 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Wbpack Exercise</title><script defer="defer" src="main.js"></script></head><body><h1>Hello Webpack!</h1></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leaderboard</title>
+<script defer src="runtime.bundle.js"></script><script defer src="main.bundle.js"></script></head>
+<body>
+  <h1>Leaderboard</h1>
+<main>
+    <section class="score-section">
+    <header>
+      <h2>Recent scores</h2>
+      <input type="button" class="btn" value="Refresh">
+    </header>
+    <ul class="scores-box"></ul>
+  </section>
+  <section class="input-section">
+    <header><h2>Add your score</h2></header>
+    <input type="text" name="name" placeholder="Your name" id="">
+    <input type="text" name="score" placeholder="Your score" id="">
+    <input type="button" class="btn" name="submit" value="Submit" id="">
+  </section>
+</main>
+</body>
+</html>
