@@ -12,15 +12,17 @@
     <section class="score-section">
     <header>
       <h2>Recent scores</h2>
-      <input type="button" class="btn" value="Refresh">
+      <input type="button" class="refresh btn" value="Refresh">
     </header>
     <ul class="scores-box"></ul>
   </section>
   <section class="input-section">
     <header><h2>Add your score</h2></header>
-    <input type="text" name="name" placeholder="Your name" id="">
-    <input type="text" name="score" placeholder="Your score" id="">
-    <input type="button" class="btn" name="submit" value="Submit" id="">
+    <form id="form">
+      <input type="text" name="user" placeholder="Your name" id="user" required>
+      <input type="number" name="score" placeholder="Your score" id="score" required>
+      <input type="submit" class="btn" name="submit" value="Submit" id="submit">
+    </form>
   </section>
 </main>
 </body>
