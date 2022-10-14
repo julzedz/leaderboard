@@ -1,6 +1,20 @@
+body {
+  background: #9c9989;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+  margin-left: 2em;
+}
+
 main {
   display: flex;
   justify-content: space-evenly;
+}
+
+li {
+  list-style: none;
+  width: 100%;
 }
 
 .score-section {
@@ -20,6 +34,50 @@ main {
   gap: 1em;
 }
 
+#form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+#user,
+#score {
+  padding: 1em;
+  background: #c7ddcc;
+  font-size: 14px;
+  border: none;
+  border-radius: 2px;
+  letter-spacing: 1px;
+}
+
 .btn {
   width: fit-content;
+  padding: 0.5em;
+  border: none;
+  border-radius: 2px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #f0f8ff;
+  background-color: #004e7c;
+  cursor: pointer;
+}
+
+.scores-box {
+  border: 2px #591c0b solid;
+  background: #c7ddcc;
+  padding: 0;
+  overflow-x: hidden;
+  max-height: 50%;
+  border-radius: 10px;
+}
+
+#item {
+  height: 1.5em;
+  border-bottom: 1px rgb(181, 178, 178) solid;
+  padding: 0.5em;
+  padding-left: 1em;
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+  letter-spacing: 1px;
 }

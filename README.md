@@ -4,7 +4,22 @@
 
 The leaderboard app displays scores submitted by different players. It also allows you to submit your score. All data is preserved with the external Leaderboard API service.
 
-## Setup
+
+## Built With
+
+- HTML
+- CSS
+- JavaScript
+- Linters
+- Webpack
+- API
+
+
+## Live Demo
+[Checkout here](https://julzedz.github.io/leaderboard/dist)
+
+
+## Getting Started
 
 ### Clone this repository
 
@@ -31,25 +46,23 @@ $ open dist/index.html
 - Having Git installed and configured.
 
 
-## Built With
-
-- HTML
-- CSS
-- JavaScript
-- Linters
-- Webpack
-- API
+### Setup
+- Clone the repository.
+- Open the project folder in VS Code.
 
 
 ## Author
 
-The author of the project is [Jules Edozie](https://github.com/julzedz).
+The author of the project is Jules Edozie.
+- GitHub: [@julzedz](https://github.com/julzedz)
+- Twitter: [@julzedz](https://twitter.com/julzedz)
+- LinkedIn: [Jules Edozie](https://www.linkedin.com/in/jules-edozie-b59b94234/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to visit the [issues page](https://github.com/julzedz/leaderboard/issues).
 
 ## Show your support
 
