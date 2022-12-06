@@ -16,7 +16,7 @@ The leaderboard app displays scores submitted by different players. It also allo
 
 
 ## Live Demo
-[Checkout here](https://julzedz.github.io/leaderboard/dist)
+[Checkout here](https://julzedz-leaderboard.netlify.app/)
 
 
 ## Getting Started
